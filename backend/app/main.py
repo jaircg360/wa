@@ -42,7 +42,7 @@ def read_root():
 allowed_origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
-    "https://we-delta-neon.vercel.app/",  # URL de Vercel (cambiar por tu dominio)
+    "https://we-delta-neon.vercel.app",  # URL de Vercel (cambiar por tu dominio)
     "https://*.vercel.app",  # Dominios de Vercel
 ]
 
