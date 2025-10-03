@@ -1,0 +1,51 @@
+# --- Archivos de Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# --- Entorno virtual ---
+venv/
+env/
+.venv/
+
+# --- Configuración del editor ---
+.vscode/
+.idea/
+
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Archivos de modelos grandes (si usas IA) ---
+*.h5
+*.pkl
+*.pt
+*.onnx
+
+# --- Archivos temporales ---
+*.tmp
+*.swp
+*.swo
+
+# --- Dependencias ---
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+
+# --- Compilados ---
+dist/
+build/
+*.egg
+
+# --- Archivos de Render / Heroku ---
+*.bak
+.installed_packages.txt
+
+# --- Otros ---
+runtime.txt
+Procfile
